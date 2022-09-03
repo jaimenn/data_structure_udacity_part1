@@ -1,0 +1,38 @@
+Run time analysis (Worst Case Big-O Notation) of my solution
+-----------------------------------------------------------------------------
+Task0:
+
+There are two print statements those prints first and last records.
+There are no loops so codes are running in a constant time
+Big O is equals 1 so  big o is --O(1)--
+-----------------------------------------------------------------------------
+Task1:
+
+There are two for loops(not nested). Each for loop iterates n items. My codes iterates totally 2n items.
+Big O is equals 2n so we can omit 2 and big o is --O(n)--
+-----------------------------------------------------------------------------
+Task2:
+There is one for loop to create time_spent_dict. This loop iterates over all call list, n items.
+then one for loop iterates the dict n items for identify the longest time with max() method.
+then one foor loop iterates n items to identify which number has the longest number.
+So big O is n + n + n = 3n. We can omit 3 and big o is --O(n)--
+
+
+-----------------------------------------------------------------------------
+Task3:
+
+Part A
+includes two of nested for loops(n^2) to create the list area_codes_by_bang and sorted() method's bid O is nlogn
+also includes one for loop for(n) printing the list
+so big O of Part A is n^2 + nlogn + n
+
+Part B
+includes one for loop to select the calls from Bangalore to Bangalore
+so big O of Part B is n
+
+Big O is n^2 + nlogn + n + n = n^2 + 2n so if we can omit nlogn + 2n and
+big O is --O(n^2)--
+-----------------------------------------------------------------------------
+Task4:
+
+I used respectively two for loops to iterate calls list and texts list. Each loop iterates n items. Big O is n + n = 2n. If we omit 2 big o is --O(n)--
